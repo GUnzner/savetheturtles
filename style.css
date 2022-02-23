@@ -83,6 +83,7 @@ html, body{
     width: 500px;
     margin: 15px;
     border-radius: 50%;
+    max-width: 100%;
 }
 
 .footer-container{
@@ -98,10 +99,10 @@ html, body{
 }
 
 .gallery{
-    height: 300px;
+    max-height: 300px;
     margin: 5px;
-    border-radius: 5%
-    
+    border-radius: 5%;
+    max-width: 100%;
 }
 
 .flex-container {
@@ -109,6 +110,7 @@ html, body{
     flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .image-donate {
