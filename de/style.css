@@ -20,7 +20,7 @@ background-color: blanchedalmond;
 
 .nav li{
     display:inline-block;
-    padding: .75em;
+    padding: .5em;
     font-size: 1.5em;
 }
 
@@ -61,20 +61,6 @@ html, body{
     font-weight: bold;
     font-size: 1.2em;
 
-}
-
-.lang{
-  position: absolute;
-  top: 0;
-  right: 0;
-  text-align: end;
-  padding-left: 2em;
-  padding-right: 1em;
-  display: inline-block;
-  text-decoration: none;
-  font-size: 1.2em;
-  list-style: none;
-  float: none;
 }
 
 .cart-column{
