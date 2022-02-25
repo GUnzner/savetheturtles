@@ -39,19 +39,19 @@
             <div>
                 <label>E-Mail-Adresse(*)</label>
                 <div>
-                    <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required,email" />
+                    <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required="required,email" />
                 </div>
             </div>
             <div>
                 <label for="phone">Telefonnummer</label>
                 <div>
-                    <input type="tel" pattern="[0-9+]+"/>
+                    <input type="tel" name="phone" pattern="[0-9+]+"/>
                 </div>
             </div>
             <div>
                 <label>Nachricht(*)</label>
                 <div>
-                    <textarea type="text" placeholder="Enter your message here..." maxlength="1000" style="height: 10rem" required="required"></textarea>
+                    <textarea type="text" name="message" placeholder="Enter your message here..." maxlength="1000" style="height: 10rem" required="required"></textarea>
                 </div>
             </div> 
             <button class="button" type="submit">Absenden</button>
