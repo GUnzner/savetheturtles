@@ -1,3 +1,1 @@
-$(document).ready(function() {
-    $('.image-link').magnificPopup({type:'image'});
-  });
+console.log("hello world!")
