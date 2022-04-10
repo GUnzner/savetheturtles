@@ -83,8 +83,17 @@ function addItemToCart(title,price,imageSrc) {
   </div>    `
     cartRow.innerHTML = cartRowContents
     cartItems.append(cartRow)
+
     cartRow.getElementsByClassName('button-danger')[0].addEventListener('click', removeCartItem)
     cartRow.getElementsByClassName('cart-quantity-input')[0].addEventListener('change', quantityChanged)
+
+    //var language = document.getElementsByTagName('html')[0].getAttribute('lang')
+    
+    var language = document.documentElement.lang
+
+    if(language=='de'){
+        cartRow.getElementsByClassName('button-danger')[0].innerText='ENTFERNEN'
+    }
 }
 
 function updateCartTotal() {
