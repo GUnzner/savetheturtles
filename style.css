@@ -318,7 +318,7 @@ html, body{
 
 .slide > img {
     display: block;
-    height: 100vh;
+    max-height: 100%;
     max-width: 100%;
     object-position: center;
     margin-left: auto;
